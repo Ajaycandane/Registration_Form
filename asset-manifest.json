@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Registration_Form/static/css/main.44cf400f.css",
+    "main.js": "/Registration_Form/static/js/main.b07f88c4.js",
+    "static/media/city.jpg": "/Registration_Form/static/media/city.416f13d832a8be1df019.jpg",
+    "index.html": "/Registration_Form/index.html",
+    "main.44cf400f.css.map": "/Registration_Form/static/css/main.44cf400f.css.map",
+    "main.b07f88c4.js.map": "/Registration_Form/static/js/main.b07f88c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44cf400f.css",
+    "static/js/main.b07f88c4.js"
+  ]
+}
