@@ -106,7 +106,7 @@ function App() {
             />
             <span>I agree with terms &amp; conditions</span>
           </div>
-
+          <br/>
           <div className="btn">
             <button onClick={handleRegister}>Register</button>
           </div>
@@ -140,7 +140,7 @@ function App() {
               Remember me <a href="#">Forgot password</a>
             </span>
           </div>
-
+          <br/>
           <div className="btn">
             <button>Login</button>
           </div>

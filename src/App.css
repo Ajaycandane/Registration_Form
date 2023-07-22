@@ -41,10 +41,11 @@ span{
 margin-left:8em;
 }
 .container{
+  display: grid;
   position: relative;
   border:2px solid rgba(255, 255, 255, 0.564);
   margin-top:6em;
-  padding:20px 20px;
+  padding:1.2rem ;
   border-radius:10px;
   background-color: transparent;
   backdrop-filter:blur(15px);
@@ -63,7 +64,7 @@ margin-left:8em;
 
 
 .my-form{
-  width: 50vh;
+  width: 45vh;
   font-weight:thin;
   font-size: smaller;
 
@@ -106,8 +107,7 @@ a:hover{
   display: flex;
   align-items:center;
   justify-content:center;
-  margin-top:1em;
-  margin-left:10em;
+  margin: auto;
   cursor: pointer;     
   outline: none;
   border: none;
@@ -169,14 +169,62 @@ a:hover{
     background-size: 200vw;
   }
 }
-@media (max-width:653px){
-  body{
-    background-size: 250vw;
-  }
-}
+
 @media (max-width:653px){
   body{
     background-size:300vw;
   }
+  .container {
+    right: 2rem;
+    width: 130%;
+  }
+
+  .my-form {
+    width: 100%;
+    font-size: 100%;
+  }
+
+  .form label {
+    font-size: 90%;
+  }
+
+  .form input {
+    font-size: 90%;
+  }
+
+  .btn button {
+    padding: 0.3em 1em;
+    font-size: 90%;
+  }
 }
+@media (max-width: 496px) {
+  body{
+    background-size:400vw;
+  }  
   
+  .container {
+    right: 1rem;
+    width: 120%;
+  }
+
+  .my-form {
+   
+    width: 100%;
+    font-size: 90%;
+  }
+
+  .form label {
+    font-size: 90%;
+  }
+
+  .form input {
+    font-size: 90%;
+  }
+
+  .btn button {
+    padding: 0.3em 1em;
+    font-size: 90%;
+  }
+}
+
+
